@@ -10,10 +10,14 @@ p {
 }
 
 .topnav {
+  overflow: hidden;
+  background-color: #002ae33;
+}
+
+.topnav a {
   font-family: 'Open Sans Condensed';
   font-size: 10px;
   color: white;
-  background-color: #002ae33;
   float: right;
   padding: 16px 16px;
   text-decoration: none;
@@ -21,4 +25,5 @@ p {
 
 .topnav a:hover {
   font-weight: 700;
+  color: yellow;
 }
