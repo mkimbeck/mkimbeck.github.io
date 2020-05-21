@@ -11,7 +11,7 @@ p {
 
 .topnav {
   overflow: hidden;
-  background-color: #002ae33;
+  background-color: #blue;
 }
 
 .topnav a {
@@ -24,6 +24,5 @@ p {
 }
 
 .topnav a:hover {
-  font-weight: 700;
   color: yellow;
 }
