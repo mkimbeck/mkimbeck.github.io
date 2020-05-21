@@ -19,5 +19,5 @@ p {
 }
 
 .topnav a:hover {
-  text-decoration: bold;
+  font-weight: 700;
 }
