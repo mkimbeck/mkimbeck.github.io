@@ -15,7 +15,8 @@ p {
   color: white;
   background-color: #002ae33;
   float: right;
-  padding: 16px;
+  padding: 16px 16px;
+  text-decoration: none;
 }
 
 .topnav a:hover {
