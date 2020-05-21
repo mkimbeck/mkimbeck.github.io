@@ -14,4 +14,9 @@ p {
   font-size: 10px;
   color: white;
   background-color: #002ae33;
+  float: right;
+}
+
+.topnav a:hover {
+  text-decoration: bold;
 }
