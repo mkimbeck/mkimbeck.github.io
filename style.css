@@ -200,13 +200,6 @@ td, tr, th, table {
 
 
 /*General Links*/
-a {
-  color: darkgoldenrod;
-  cursor: pointer;
-}
-a:visited {
-  color: darkgoldenrod;
-}
 a:hover {
   color: goldenrod;
 }
