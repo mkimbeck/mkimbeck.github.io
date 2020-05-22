@@ -1,28 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 body {
+  color: black;
+  font-family: 'Oswald';
+  font-size: 16px; 
+  background-color: lightgray;
 }
 
 
 
-p {
-  color: red;
-  font-family: 'Roboto', verdana;
-  font-size: 40px;   
+
+/*Header Divs*/
+#headercontainer {
+  width: 100%;
+  padding-bottom: 35px;
+}
+#piclinkbar {
+  float: right;
+  padding: 40px;
+  padding-right: 60px;
+  letter-spacing: 35px;
+}
+.imglink:hover {
+  transform: translateY(4px);
+}
+img {
+}
+#header {
+  margin-left: 20px;
+  padding: 20px;
+  padding-top: 40px; 
+  padding-bottom: 40px;
+  float: left;
+}
+h1 {
+  margin: 0px;
+  text-align: left;
+  font-size: 38px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  line-height: 1.25rem;
+}
+h3 {
+  padding-top: 10px;
+  padding-left: 2px;
+  padding-bottom: 20px;
+  margin: 0px;
+  font-size: 18px;
+  text-align: left;
+}
+hr {
+  border: 2px goldenrod dashed;
 }
 
+
+
+
+/* Expanding Labeled Panels */
+input {
+  display: none;
+}
+.details {
+  background-color: white;
+  color: black;
+  text-align: left;
+  font-family: 'Oswald';
+  font-size: 16px;
+}
+label {
+  color: black;
+  font-family: 'Oswald';
+  font-size: 20px;
+  cursor: pointer;
+  text-align: left;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+label:after {
+  padding-right: 50px;
+  content: '+';
+  color:black;
+  float: right;
+  font-size: 22px;
+}
+label:hover {
+  background-color:white;
+  transition: 0.2s;
+}
+input + label + .details {
+  display: none;
+}
+input:checked + label + .details {
+  display: block;
+  padding: 20px;
+  background-color: white;
+}
+
+
+
+
+/*Tables*/
+td, tr, th, table {
+    text-align: left;
+    width: 1100px;
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*Contact Page*/
+#contactsection {
+  width: 500px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 100px;
+  padding: 10px;
+  padding-bottom: 20px;
+  border: 5px solid goldenrod;
+  margin: 0 auto;
+  border-radius: 85px;
+  background-color: white;
+}
+
+
+
+
+
+
+/*Artwork Page*/
+#imagescontainer {
+  width: 100%
+  margin: auto 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*About Page*/
+#aboutsection {
+  float: left;
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+#avatar {
+  border-radius: 50%;
+  padding-left: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#abouttext {
+  float:right;
+  width: 450px;
+  padding-right: 120px;
+}
+
+
+
+
+
+/* Navigation Bar */
+#navcontainer {
+  padding-top: 50px;
+}
 .topnav {
   overflow: hidden;
   background-color: darkslategray;
+  width: 100%;
 }
-
 .topnav a {
-  font-family: 'Open Sans Condensed';
-  font-size: 10px;
+  font-family: 'Oswald';
+  font-size: 15px;
   color: white;
   float: right;
-  padding: 16px;
+  padding: 14px;
+  padding-right: 50px;
+  padding-left: 50px;
   text-decoration: none;
 }
-
 .topnav a:hover {
-  background-color: black;
+  background-color: #1D2F30;
+  cursor: pointer;
+  color: goldenrod;
+  transition: ease-in 0.2s;
+}
+
+
+
+/*General Links*/
+a {
+  color: darkgoldenrod;
+  cursor: pointer;
+}
+a:visited {
+  color: darkgoldenrod;
+}
+a:hover {
+  color: goldenrod;
 }
